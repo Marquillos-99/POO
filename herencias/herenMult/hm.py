@@ -10,4 +10,4 @@ class Cocodrilo(Terrestre,Acuatico):
     pass
 
 c = Cocodrilo()
-c.desplazalse
+print()

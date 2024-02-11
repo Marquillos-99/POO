@@ -24,7 +24,7 @@ class pokemon:
 
 class zubat(pokemon):
     def atack(self, atackType):
-        return 'mi nombre es {} con tipo de ataque {}'.format(self.name,atackType)
+        return f"mi tipo de ataque es {self.atackType}"
     
 class charmelion(pokemon):
     def atack(self, atackType):

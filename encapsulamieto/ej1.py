@@ -20,3 +20,9 @@ mi_clase.metodo_normal()
 print(dir(mi_clase))
 
 #como puedo acceder a los atributos privados
+
+#1
+class Miclass:
+    def __init__(self):
+        pass
+
