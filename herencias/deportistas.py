@@ -1,7 +1,7 @@
 class Deportista:
     def __init__(self,genero, edad, peso):
         self.genero = genero
-        self.edad = edad
+        self.edad = edad        
         self.peso = peso
 
     def __str__(self):
