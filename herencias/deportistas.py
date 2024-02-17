@@ -9,7 +9,7 @@ class Deportista:
 
 class Ciclista(Deportista):
     def __init__(self,genero,edad,peso,name):
-        super().__init__(name,genero,edad,peso)
+        super().__init__(genero,edad,peso)
         self.name = name
 
 
