@@ -1,0 +1,5 @@
+parametros = {"nombre": "Ana", "edad": 30, "ciudad": "Madrid"}
+
+# Unir la lista con el formato "clave=valor"
+cadena_parametros = "&".join(["=".join(kv) for kv in parametros.items()])
+print(cadena_parametros)

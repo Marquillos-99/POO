@@ -4,6 +4,7 @@
 class Email:
     def __init__(self):
         self.enviado = False
+        
 
     def enviarCorreo(self):
         self.enviado = True
