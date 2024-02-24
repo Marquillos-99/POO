@@ -1,20 +1,17 @@
-def suma_lista(lista):
-    if not lista:
-        return 0
-    else:
-        return lista[0] + suma_lista(lista[1:])
+# def filtrar_pares(lista):
+#     pares = []
+#     for numero in lista:
+#         if numero % 2 == 0:
+#             pares.append(numero)
+#     return pares
 
-lista = [1, 2, 3, 4, 5]
-resultado = suma_lista(lista)
-print(resultado)  # Salida: 15
+# lista = [1, 2, 3, 4, 5 ]
+# numeros_pares = filtrar_pares(lista)
+# print(numeros_pares)
 
-
-def suma_lista(lista):
-    suma = 0
-    for numero in lista:
-        suma += numero
-    return suma
-
-lista = [1, 2, 3, 4, 5]
-resultado = suma_lista(lista)
-print(resultado)  # Salida: 15
+def filtrar_pares(lista):
+    return [numero for numero in lista if numero % 2 == 0]
+ 
+lista = [1, 2, 3, 4, 5 ]
+numeros_pares = filtrar_pares(lista)
+print(numeros_pares)
