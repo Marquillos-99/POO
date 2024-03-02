@@ -5,7 +5,7 @@ class Persona:
 
 personas = [Persona("Juan", 20), Persona("Pedro", 30), Persona("Maria", 40)]
 
-edades = map(lambda persona: persona.edad, personas)
+edades = map(lambda persona: persona.nombre, personas)
 edadfinal = list(edades)
 
 print(edadfinal)
