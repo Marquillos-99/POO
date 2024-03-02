@@ -1,0 +1,41 @@
+6RM1 Vibbreciones Mecanicas
+
+# Lista de ingredientes
+ingredientes = ['pasta de lasaña', 'carne molida', 'tomate', 'cebolla', 'ajo', 'queso mozzarella', 'queso parmesano', 'sal', 'pimienta']
+
+# Función para verificar los ingredientes
+def verificar_ingredientes(ingredientes):
+    for ingrediente in ingredientes:
+        print(f'Verificando ingrediente: {ingrediente}')
+    print('Todos los ingredientes están listos.\n')
+
+# Función para preparar la salsa
+def preparar_salsa():
+    print('Preparando la salsa...')
+    print('La salsa está lista.\n')
+
+# Función para preparar la carne
+def preparar_carne():
+    print('Preparando la carne...')
+    print('La carne está lista.\n')
+
+# Función para montar la lasaña
+def montar_lasagna():
+    print('Montando la lasaña...')
+    print('La lasaña está montada.\n')
+
+# Función para hornear la lasaña
+def hornear_lasagna():
+    print('Horneando la lasaña...')
+    print('La lasaña está lista para servir.\n')
+
+# Función principal para preparar la lasaña
+def preparar_lasagna(ingredientes):
+    verificar_ingredientes(ingredientes)
+    preparar_salsa()
+    preparar_carne()
+    montar_lasagna()
+    hornear_lasagna()
+
+# Llamada a la función principal
+preparar_lasagna(ingredientes)
